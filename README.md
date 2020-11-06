@@ -13,6 +13,7 @@ In this folder:
 
 - election-list.csv is a list of elections. Note the ID of any you're interested
   in
+- archive-all.sh is a bash script to update this archive
 
 In the archive folder, there are a bunch of numbered folders. Each number is an ID from election-list.csv. Each folder contains:
 
@@ -25,7 +26,7 @@ In the archive folder, there are a bunch of numbered folders. Each number is an 
 Using the ct-election-runner tool I open-sourced here:
 [https://github.com/jakekara/ct-election-runner](https://github.com/jakekara/ct-election-runner)
 
-## Data caveates
+## Data caveats
 
 You should get this data from the state, AP, or other sources. This just gives
 it to you in a format that might be more useful, and more granular. In other
